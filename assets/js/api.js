@@ -13,9 +13,12 @@ function getData() {
   }
 
   fetch(`${base_Url}data`, {
+    mode: 'no-cors',
     headers: {
       key: apiKey,
-      'Access-Control-Allow-Origin':'*'
+      'Access-Control-Allow-Origin' :  '*',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
     },
   })
     .then((response) => {
