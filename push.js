@@ -14,8 +14,8 @@ webPush.setVapidDetails(
 var pushSubscription = {
     "endpoint": "https://fcm.googleapis.com/fcm/send/flM9UVCBLSY:APA91bFRbbIspKeIhrEmLd-IVNbMKQBs-6xZ2gKDUGAmOI373KvBgYdAByeodQWj3aN2B-IXX886kfNQSUlXfKp2ia3TiJp117oiwxlGizzmnItk4fF2qXSkN29Y3BJutd9zMtsMBr7P",
     "keys": {
-        "p256dh": "BIUBZgx9HJJz6szE46MWBa/BtcbxZevAPfyFsMTvo/WCb49iJ4BUZAv/HRCBAqR/iLZ34PUXggm9Y0uqU5TyYXs=",
-        "auth": "Svsf/bZgUTcNfcDihLtpBg=="
+        "p256dh": "BHIqe47VNR7xVr4Cqsq36Z7itCG0Vdv9/mUBDOzNqu3LRQdZeoPqFzUUgn6ztXtraOCjhwuvZT19Zy11PzIfWyU=",
+        "auth": "zxTBacWtj/qsuYnbl2SV2A=="
     }
 };
 var payload = 'Selamat! Aplikasi Anda sudah dapat menerima push notifikasi!';
