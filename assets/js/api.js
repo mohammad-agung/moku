@@ -13,7 +13,7 @@ function getData() {
   }
 
   fetch(`${base_Url}data`, {
-    mode: 'cors',
+    mode: 'no-cors',
     headers: {
       key: apiKey,
       'Access-Control-Allow-Origin':'*'
